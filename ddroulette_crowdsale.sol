@@ -52,7 +52,7 @@ contract DDRCoinCrowdsaleDeployer {
         // Create a new instance of the `DDRCrowdsale` contract
         DDRCrowdsale ddr_crowdsale = new DDRCrowdsale(1, wallet, token, goal, now, now + 24 hours);
         
-        // Assign the `DDRCrowdsale` contract’s address to the `kasei_crowdsale_address` variable.
+        // Assign the `DDRCrowdsale` contract’s address to the `ddr_crowdsale_address` variable.
         ddr_crowdsale_address = address(ddr_crowdsale);
         
         // Set the `DDRCrowdsale` contract as a minter
