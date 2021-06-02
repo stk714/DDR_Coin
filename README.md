@@ -23,7 +23,7 @@ To have a system in place for everyone to get home safely without one person alw
 * Ganache
 
 ### Developers
-Callie Yu
-Gabriel Silva
-Sarah Kang
-Susannah Slocum
+* Callie Yu
+* Gabriel Silva
+* Sarah Kang
+* Susannah Slocum
