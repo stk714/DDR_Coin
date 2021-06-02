@@ -55,10 +55,10 @@ contract DDRCoinCrowdsaleDeployer {
         // Assign the `DDRCrowdsale` contract’s address to the `kasei_crowdsale_address` variable.
         ddr_crowdsale_address = address(ddr_crowdsale);
         
-        // Set the `KaseiCoinCrowdsale` contract as a minter
+        // Set the `DDRCrowdsale` contract as a minter
         token.addMinter(ddr_crowdsale_address);
         
-        // Have the `KaseiCoinCrowdsaleDeployer` renounce its minter role.
+        // Have the `DDRCoinCrowdsaleDeployer` renounce its minter role.
         token.renounceMinter();
     }
 }
