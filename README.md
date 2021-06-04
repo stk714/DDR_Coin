@@ -16,6 +16,9 @@ To have a system in place for everyone to get home safely without one person alw
 * Is this an ongoing system or one contract per event
 
 ### Instructions
+To install the Web3.py library, check that your dev environment is active, and then run the following:
+pip install web3==5.17
+
 Create contract DDRCoin. Deploy contract. 
 Name: DDRCoin
 Symbol: DDR
