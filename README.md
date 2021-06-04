@@ -24,10 +24,11 @@ Inital_supply: 40
 // Created contract address: 0xa362B0F565f2d864503da1814231951f62D1dFEE
 
 // Create wallet for 4 individuals. Transfer 10 coins to each wallet
-// Account1: Susannah = 0x05BDAc66297e6283d8154a8E2727ee6F4BC9217F
-// Account2: Sarah = 0x82D9592130b3B9Ee1e2134873f56C1B56d495108
-// Account3: Callie = 0x947fFc4Be9797e3E8EFdf336692619F242d65DF9
-// Account4: Gabriel = 0x50b40a7Ba0c437ff25521bA43e47e6b0F1384A02
+
+* Account1: Susannah = 0x05BDAc66297e6283d8154a8E2727ee6F4BC9217F
+* Account2: Sarah = 0x82D9592130b3B9Ee1e2134873f56C1B56d495108
+* Account3: Callie = 0x947fFc4Be9797e3E8EFdf336692619F242d65DF9
+* Account4: Gabriel = 0x50b40a7Ba0c437ff25521bA43e47e6b0F1384A02
 
 // Add functions to store address and transfer funds to contract wallet / address
 
