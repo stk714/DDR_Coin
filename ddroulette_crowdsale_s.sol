@@ -26,6 +26,7 @@ contract DDRCrowdsale is Crowdsale, MintedCrowdsale, CappedCrowdsale, TimedCrowd
             CappedCrowdsale(goal)
             TimedCrowdsale(open, close)
             RefundableCrowdsale(goal)
+            PostDeliveryCrowdsale()
             // IndividuallyCappedCrowdsale(caps)
         {
         // constructor can stay empty
