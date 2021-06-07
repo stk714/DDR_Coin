@@ -31,8 +31,8 @@ contract DDRCrowdsale is Crowdsale, MintedCrowdsale, CappedCrowdsale, TimedCrowd
 }
 
 contract DDRCoinCrowdsaleDeployer {
-    // Create an `address public` variable called `kasei_token_address` which will store KaseiCoin's address once that contract has been deployed
-    // Create an `address public` variable called `kasei_crowdsale_address` which will store KaseiCoinCrowdsale's address once that contract has been deployed
+    // Create an `address public` variable called `ddr_token_address` which will store DDR Coin's address once that contract has been deployed
+    // Create an `address public` variable called `ddr_crowdsale_address` which will store DDRCoinCrowdsale's address once that contract has been deployed
     address public ddr_token_address;
     address public ddr_crowdsale_address;
     
@@ -40,7 +40,7 @@ contract DDRCoinCrowdsaleDeployer {
     constructor(
         string memory name,
         string memory symbol,
-        address payable wallet, // this address will receive all Ether raised by the sale
+        address payable wallet, // this address will receive all Coins raised by the sale
         uint256 goal
     ) public {
         // Create a new instance of the DDRCoin contract.
