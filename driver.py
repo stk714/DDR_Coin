@@ -26,7 +26,7 @@ from typing import Any, List
 
 ################################################################################
 # Step 1:
-# Import Ethereum Transaction Functions into the Fintech Finder Application
+# Import Ethereum Transaction Functions into Designated Driver Roulette
 
 # Complete the following steps:
 
@@ -51,18 +51,14 @@ from typing import Any, List
 
 # 5. Within this same section of the `finder.py` file, define a
 # new `st.sidebar.write` function that will display the balance of the
-# driver's account. Inside this function, call the `get_balance` function
-# and pass it your DDR Coin `account.address`.
+# Potluck Account
 
 ################################################################################
-# Step 1 - Part 3:
-# Import the following functions from the `crypto_wallet.py` file:
+# Import the following functions from the `wallet.py` file:
 # * `participant_account`
 # * `get_balance`
 # * `send_transaction`
 
-# From wallet.py import the functions generate_account, get_balance,
-#  and send_transaction
 from wallet import participant_account
 from wallet import get_balance
 from wallet import send_transaction
@@ -71,7 +67,8 @@ from wallet import send_transaction
 # Streamlit Code
 
 # Streamlit application headings
-st.markdown("# Designated Driver")
+
+st.title('Designated Driver Roulette')
 st.markdown("## Choose a Designated Driver!")
 st.text(" \n")
 
@@ -108,7 +105,7 @@ get_people()
 ################################################################################
 # Streamlit Sidebar Code - Start
 
-st.sidebar.markdown("## Driver Account Address and Balance in DDR Coin")
+st.sidebar.markdown("## DD Roulette Potluck Address and Balance of DDR Coin")
 ################################################################################
 account = participant_account()
 
@@ -142,7 +139,7 @@ driver_address = participant_database[person][1]
 # Write the Driver's DDR Coin Address to the sidebar
 st.sidebar.write(driver_address)
 
-# Write the Fintech Finder candidate's name to the sidebar
+# Show the Total DDR Coin paid to Driver
 
 st.sidebar.markdown("## Total Paid in DDR Coin")
 
