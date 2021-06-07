@@ -25,11 +25,11 @@ Symbol: DDR
 Inital_supply: 40
 
 // owner address: 0xD81b7D4224c017FC839Dc2a95D77Fbb6237B8383
-// Created contract address: 0x4214cd132c3FB02d1f26288aBc0eCB70f0fdA0d3
+// Created contract address: 0xF6F9BbAB7d8bbb668bD5cF3Ce3650dbec01338CE
 
 // Create wallet for 4 individuals. Transfer 10 coins to each wallet
 
-* Account1: Susannah = 0x1499112bF48CbCBe1023A9dA7f6bA40e88d28c81
+* Account1: Susannah = 0xD81b7D4224c017FC839Dc2a95D77Fbb6237B8383
 * Account2: Sarah = 0xED8706cf7294f1c4F76D54EBEbD3b48D78C72CA6
 * Account3: Callie = 0x9D3aD9827e8901AB4499BCbDBC3c48615780dbDF
 * Account4: Gabriel = 0xEC9e323F61BCC0B23D40f779C1aC0AE43AE20264
